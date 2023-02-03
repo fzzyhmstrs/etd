@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "enchanting-table-descriptions",
+	"version": "${version}",
+	"name": "Enchanting Table Descriptions",
+	"description": "Simple companion to Enchantment Descriptions and idwtialsimmoedm that adds descriptions to the tooltips of the Enchanting Table!",
+	"authors": [
+		"fzzyhmstrs"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/enchanting-table-descriptions/icon.png",
+	"environment": "*",
+	"mixins": [
+		"enchanting-table-descriptions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.13",
+		"minecraft": "~1.19",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
